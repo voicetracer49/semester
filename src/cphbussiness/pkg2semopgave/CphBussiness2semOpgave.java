@@ -17,7 +17,7 @@ public class CphBussiness2semOpgave
      */
     public static void main(String[] args)
     {
-        System.out.println("tester 1 ændring .. Ruben J");
+        System.out.println("Ændring nr. - Bettina");
         // TODO code application logic here
     }
 }

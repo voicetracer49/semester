@@ -18,6 +18,7 @@ public class CphBussiness2semOpgave
     public static void main(String[] args)
     {
         System.out.println("Ændring nr. - Bettina");
+        System.out.println("Self-destruct sequence countdown 3, 2, 1 - Marcus");
         // TODO code application logic here
     }
 }

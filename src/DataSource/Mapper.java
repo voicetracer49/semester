@@ -6,10 +6,20 @@
 
 package DataSource;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
 /**
  *
  * @author Anders Kjær
  */
 public class Mapper {
+    
+//    public boolean CreateBooking() throws SQLException {
+//        
+//    }
+    
+    
     
 }

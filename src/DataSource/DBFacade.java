@@ -4,14 +4,12 @@
  * and open the template in the editor.
  */
 
-package GUI;
+package DataSource;
 
 /**
  *
  * @author Anders Kjær
  */
-public class GUI1 {
-    
-
+public class DBFacade {
     
 }

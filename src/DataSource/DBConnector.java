@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package Domain;
+package DataSource;
 
 /**
  *
  * @author Anders Kjær
  */
-public class Control {
+public class DBConnector {
     
 }

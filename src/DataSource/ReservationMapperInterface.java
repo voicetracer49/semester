@@ -6,16 +6,15 @@
 
 package DataSource;
 
+import Domain.Reservation;
+
 /**
  *
  * @author Anders Kjær
  */
-public class Mapper {
+public interface ReservationMapperInterface {
     
-//    public boolean CreateBooking() throws SQLException {
-//        
-//    }
-    
+    boolean saveReservation(Reservation r);
     
     
 }

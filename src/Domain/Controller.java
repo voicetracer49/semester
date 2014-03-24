@@ -9,7 +9,7 @@ package Domain;
  * @author https://github.com/voicetracer49/CphBussiness-2semOpgave.git Bettina,Anders, Marcus, Tanja, Ruben
  * Before you Start http://www.git-tower.com/learn/version-control-best-practices.html
  */
-public class CphBussiness2semOpgave
+public class Controller
 {
 
     /**

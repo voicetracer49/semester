@@ -7,6 +7,7 @@
 package Domain;
 
 import java.util.ArrayList;
+import oracle.sql.DATE;
 
 /**
  *
@@ -16,6 +17,24 @@ public class ReservationDetail {
     
     ArrayList<GuestDetail> gd;
     String roomType;
+    boolean deposit;
+    DATE date;
+
+    public ReservationDetail(ArrayList<GuestDetail> gd, String roomType, boolean deposit, DATE date) {
+        this.gd = gd;
+        this.roomType = roomType;
+        this.deposit = deposit;
+        this.date = date;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 }

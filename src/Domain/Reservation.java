@@ -4,18 +4,16 @@
  * and open the template in the editor.
  */
 
-package DataSource;
+package Domain;
 
 /**
  *
  * @author Anders Kjær
  */
-public class Mapper {
+public class Reservation {
     
-//    public boolean CreateBooking() throws SQLException {
-//        
-//    }
-    
-    
+    String firstName;
+    String lastName;
+            
     
 }

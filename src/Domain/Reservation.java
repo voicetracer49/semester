@@ -6,14 +6,15 @@
 
 package Domain;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Anders Kjær
  */
 public class Reservation {
     
-    String firstName;
-    String lastName;
+    ArrayList<ReservationDetail> rd;
             
     
 }

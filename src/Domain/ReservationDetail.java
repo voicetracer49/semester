@@ -6,10 +6,16 @@
 
 package Domain;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Anders Kjær
  */
 public class ReservationDetail {
+    
+    ArrayList<GuestDetail> gd;
+    String roomType;
+    
     
 }

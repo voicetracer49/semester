@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package DataSource;
 
 import java.sql.Connection;
@@ -10,20 +6,24 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author Anders Kjær
+ * @author Anders Kjær, Ruben Juul
  */
-public class DBConnector {
+public class DBConnector
+{
 
-    private static String id = "SEM2_TEST_GR05";
-    private static String pw = "SEM2_TEST_GR05";
+    private static String id = "cphrm69";
+    private static String pw = "cphrm69";
 
-    public Connection getConnection() {
+    public Connection getConnection()
+    {
         Connection con = null;
-        try {
+        try
+        {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             con = DriverManager.getConnection(
                     "jdbc:oracle:thin:@datdb.cphbusiness.dk:1521:dat", id, pw);
-        } catch (Exception e) {
+        } catch (Exception e)
+        {
             System.out.println("\n*** Remember to insert your Oracle ID and PW in the DBConnector class! ***\n");
             System.out.println("eror in DBConnector.getConnection()");
             System.out.println(e);
@@ -32,10 +32,13 @@ public class DBConnector {
         return con;
     }
 
-    public void releaseConnection(Connection con) {
-        try {
+    public void releaseConnection(Connection con)
+    {
+        try
+        {
             con.close();
-        } catch (Exception e) {
+        } catch (Exception e)
+        {
             System.err.println(e);
         }
     }
